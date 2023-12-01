@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <script defer src="bundle.js"></script>
+  </head>
+  <body>
+    <h1>test firebasse</h1>
+
+    <form class="ajouter">
+      <label for="pays">Pays: </label>
+      <input type="text" name="pays" required /><br />
+      <label for="ville">Ville: </label>
+      <input type="text" name="ville" required />
+      <select name="capital" id="capital">
+        <option value="true">Est la capitale</option>
+        <option value="false">N'est pas la capitale</option>
+      </select>
+      <button>Nouvelle ville</button>
+    </form>
+
+    <form class="suppression">
+      <label for="id">ID du document à supprimer:</label>
+      <input type="text" name="id" required />
+      <button>supprimer cette ville</button>
+    </form>
+
+    <form class="update">
+      <label for="id">ID du document à mettre à jour:</label>
+      <input type="text" name="id" required />
+      <button>Mettre à jour</button>
+    </form>
+  </body>
+</html>
