@@ -1,0 +1,4 @@
+title: Mon Site Web
+description: Un site web généré avec Jekyll
+theme: jekyll-theme-primer
+destination: dist
